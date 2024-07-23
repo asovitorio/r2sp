@@ -253,7 +253,7 @@ body.menu-expanded .menu {
 }
 
 .menu .button {
-  background:var(--brand-yelow);
+  background:var(--brand-beige);
   border-radius: 4rem;
   font-weight: 700;
   font-size: 1.8rem;
@@ -750,7 +750,7 @@ footer .social-links {
 
   footer .col-b {
   
-    z-index: -1;
+    z-index: 0;
     align-self: center;
     justify-self: flex-end;
     
