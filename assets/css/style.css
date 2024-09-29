@@ -385,6 +385,7 @@ body.menu-expanded button path {
   position: relative;
   border-radius: 0.6rem;
   transition: transform 0.6s ease;
+  border-bottom: solid 15px  hsl(357, 81%, 51%);
 }
 #services .card:hover{
   transform: scale(1.05);        /* Aumenta o tamanho do card em 5% */
@@ -392,6 +393,8 @@ body.menu-expanded button path {
 }
 #services .card h3 {
   margin-top: 1.6rem;
+  color: hsl(357, 81%, 51%);
+  border-bottom: solid 3px  hsl(357, 81%, 51%);
    
 }
 #services .card p {
