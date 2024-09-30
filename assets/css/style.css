@@ -584,7 +584,7 @@ footer .social-links {
 .section-galery .card {
   position: relative;
   width: 100%;
-  max-width: 430px;
+  max-width: 500px;
   border-radius: 5px;
   overflow: hidden;
   display: flex;
