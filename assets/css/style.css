@@ -531,7 +531,7 @@ footer .social-links {
 #wrapper-galery {
   background-color: var(--brand-light);
   border-bottom: solid 3px var(--primary-color);
-  width: 100vw;
+  width:100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -555,6 +555,7 @@ footer .social-links {
   gap: 1rem;
   border-bottom: 2px solid var(--primary-color);
   background-color: var(--brand-beige);
+  width: 100%;
 }
 
 .header-galery svg {
@@ -582,6 +583,7 @@ footer .social-links {
 
 .section-galery .card {
   position: relative;
+  width: 95%;
   max-width: 400px;
   border-radius: 5px;
   overflow: hidden;
@@ -603,6 +605,7 @@ footer .social-links {
 }
 .section-galery .card .card-content h3{
   color: var(--primary-color);
+  width: 380px;
   height: 45px;
     display: flex;
     justify-content: center;
@@ -613,6 +616,7 @@ footer .social-links {
   padding: 0 2rem;
   text-align: justify;
   color: var(--paragraph);
+  width: 380px;
 }
 .section-galery .card img {
   position: absolute;
