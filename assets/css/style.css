@@ -614,11 +614,12 @@ footer .social-links {
   margin: 0 auto;
 }
 .section-galery .card .card-content p{
-  padding: 0 2rem;
+ 
   text-align: justify;
   color: var(--paragraph);
   width: 90%;
   margin: 0 auto;
+ 
 }
 .section-galery .card img {
   position: absolute;
@@ -633,7 +634,7 @@ footer .social-links {
   background-color: #fff;
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
   /* Forma do trapézio */
-  width: 501px;
+  width: 385px;
 }
 
 .section-galery .card .card-content>div h3 {
@@ -905,7 +906,9 @@ footer .social-links {
     gap: 2rem
   }
 
- 
+  .section-galery .card .card-content>div{
+    width: 501px;
+  }
 
   /*=== FOOTER =================================*/
   footer {
