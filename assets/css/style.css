@@ -596,6 +596,7 @@ footer .social-links {
 .section-galery .card .card-content {
   position: relative;
   height: 200px;
+  width: 100%;
   /* Altura do card */
   background-color: var(--primary-color);
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
@@ -614,16 +615,19 @@ footer .social-links {
   margin: 0 auto;
 }
 .section-galery .card .card-content p{
- 
+  padding: 0 2rem;
   text-align: justify;
   color: var(--paragraph);
   width: 90%;
-  margin: 0 auto;
+  margin: 0rem auto;
+ overflow-y: scroll;
+  
  
 }
 .section-galery .card img {
   position: absolute;
   width: 100%;
+  min-height: 320px;
   top: 0;
 }
 
@@ -634,7 +638,8 @@ footer .social-links {
   background-color: #fff;
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
   /* Forma do trapézio */
-  width: 385px;
+  width: 100%;
+ 
 }
 
 .section-galery .card .card-content>div h3 {
@@ -906,9 +911,7 @@ footer .social-links {
     gap: 2rem
   }
 
-  .section-galery .card .card-content>div{
-    width: 501px;
-  }
+ 
 
   /*=== FOOTER =================================*/
   footer {
